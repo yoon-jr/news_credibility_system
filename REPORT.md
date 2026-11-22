@@ -1,4 +1,4 @@
-# Homework #1 Brief Report
+# Brief Report
 
 # 뉴스 기사 신뢰도 분석 Agentic System
 

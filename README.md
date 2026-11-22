@@ -1,4 +1,4 @@
-# HW1 News Credibility Analysis System
+# News Credibility Analysis System
 
 This project implements a **URL-based news credibility analysis agentic system** using **LangGraph** and **Hugging Face Inference Providers**.
 
