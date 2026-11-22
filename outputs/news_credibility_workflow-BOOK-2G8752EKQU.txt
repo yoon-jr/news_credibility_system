@@ -1,0 +1,12 @@
+START -> URL Fetch Agent
+URL Fetch Agent -> Article Parser Agent OR Limited Article Handler OR Extraction Failed Handler
+Limited Article Handler -> Article Parser Agent
+Extraction Failed Handler -> Article Parser Agent
+Article Parser Agent -> LLM Summary Agent
+LLM Summary Agent -> LLM Claim Credibility Agent
+LLM Claim Credibility Agent -> LLM Source Transparency Agent
+LLM Source Transparency Agent -> LLM Bias and Framing Agent
+LLM Bias and Framing Agent -> LLM Verification Planner Agent
+LLM Verification Planner Agent -> Score Aggregator Agent
+Score Aggregator Agent -> Report Writer Agent
+Report Writer Agent -> END
